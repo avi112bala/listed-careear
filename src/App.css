@@ -1,0 +1,320 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+.main{
+  height: auto;
+}
+
+
+.dashboardhome{
+  display: flex;
+  background-color: #eeeaeaf3;
+  /* flex-wrap: wrap; */
+  
+}
+.dashboardhome h1{
+  font-size: 1rem;
+  margin-left: 2rem;
+  
+}
+
+/* heading  */
+
+.dashboard-heading{
+  display: flex;
+  gap: 39rem;
+  margin: 1.5rem 0;
+ 
+}
+
+.dashboard-heading h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.search{
+  display: flex;
+  gap: 2rem;
+  
+}
+.serch-icon{
+
+  width: 100%;
+  background-color: white;
+  border-radius: 1rem;
+}
+.btn{
+  border-radius: 5px;
+  border: white;
+  
+
+}
+.search input{
+  margin-left: .8rem;
+  border: transparent;
+}
+.search img{
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+
+/* .sidedashboard */
+
+
+.sidebardiv{
+   padding: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  margin: 0.3rem;
+  margin-top: 3rem;
+  width: 18rem;
+  height: 132vh;
+}
+
+
+#customer{
+height: 25rem;
+  
+}
+
+#customer-support{
+  margin-top: 23rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+
+
+
+
+.sidedashboard{
+  /* width:calc(100%-18rem); */
+  height: auto;
+  width: 100% ;
+  /* margin: 1rem; */
+  padding: 2rem;
+}
+
+
+.chartcss{
+  width: 10rem;
+  height: 50vh;
+  background-color: white;
+  gap: 1rem;
+}
+
+
+.dashboardheading {
+  height: auto;
+  width: auto;
+  margin-left: 20rem;
+}
+
+
+
+
+.dashboard li{
+  list-style-type: none;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+ .sidebar-list{
+   margin-left: 10px;
+   margin-top: 3rem;
+} 
+
+.sidebar-item{
+  margin-bottom: 70px;
+}
+.dashboard h2{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+
+.cardrow{
+   display: grid;
+   gap: 1rem;
+  grid-template-columns: repeat(4,1fr);
+  margin: 1rem;
+}
+
+.card0,.card1,.card3,.card4{
+ background-color: 	rgba(184, 230, 191, .5);
+ border-radius: 15px;
+ padding: 1rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between  ;
+ gap: 1rem;
+ opacity: 3;
+ /* display: flex;  */
+}
+.card1{
+ background-color: rgb(252,210,153,.5);
+
+}
+.card3{
+ background-color: rgba(255, 230, 233, .5);
+
+}
+.card4{
+ background-color: #d3d3d3;
+}
+
+
+/* chartcss  */
+.chartcss{
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin: 1rem;
+  border-radius: 10px;
+  
+}
+
+/* Card  */
+
+
+.logo{
+   
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+
+.heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: flex-start ; */
+ 
+}
+
+.heading p{
+  font-size: 1rem;
+}
+.heading h2{
+  font-size: 2rem;
+  font-weight: bold;
+ 
+}
+
+/* DataDiv */
+.datadiv{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  
+}
+
+
+
+/* bottom section  */
+
+.bottom-main-div{
+  display: flex;
+  width: 45%;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.bottom-first-div{
+  width: 100%;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.bottom-second-div{
+  width: 100%;
+  display: flex;
+
+}
+
+.bottom-chart-div{
+  width: 50%;
+
+}
+
+.bottom-div-content{
+  padding: 2rem;
+  width: 100%;
+}
+  .content{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+ 
+  .bullet{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bullet h5{
+    font-size: 1rem;
+  }
+
+
+
+.point1{
+   border-radius: 50%;
+   margin: .5rem;
+  padding: .3rem;
+  background-color: skyblue;
+}
+
+.point2{
+   border-radius: 50%;
+   margin: .5rem;
+  padding: .3rem;
+  background-color: yellow;
+}
+
+.point3{
+   border-radius: 50%;
+   margin: .5rem;
+  padding: .3rem;
+  background-color: hotpink;
+}
+
+.bottom-second-div2{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 100%;
+  gap: 1rem;
+}
+
+.second-div-content{
+  border-left: 5px solid green;
+  padding: 0.5rem;
+}
+
+.second-div-content h4{
+  font-size: 1rem;
+}
+
+.second-div-content-2{
+  border-left: 5px solid navy;
+  padding: 0.5rem;
+}
+
+.second-div-content-2 h4{
+  font-size: 1rem;
+}
